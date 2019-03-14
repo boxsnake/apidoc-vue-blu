@@ -1,0 +1,37 @@
+{
+  "name": "apidoc-vue-blu",
+  "version": "0.0.0",
+  "description": "An Apidoc template using Vue Blu.",
+  "main": "index.js",
+  "scripts": {
+    "release": "npx semantic-release",
+    "commit": "npx git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boxsnake/apidoc-vue-blu.git"
+  },
+  "keywords": [
+    "apidoc",
+    "apidocjs",
+    "template",
+    "vue",
+    "vue-blu"
+  ],
+  "author": "Alex Fang <deeno@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boxsnake/apidoc-vue-blu/issues"
+  },
+  "homepage": "https://github.com/boxsnake/apidoc-vue-blu#readme",
+  "devDependencies": {
+    "commitizen": "^3.0.7",
+    "cz-conventional-changelog": "^2.1.0",
+    "semantic-release": "^15.13.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}
